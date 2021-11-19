@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var x = parseInt(prompt("Unesite vrednost x"));
+        var operacija = prompt("Unesite operaciju: +, -, *, /");
+        var y = parseInt(prompt("Unesite vrednost y"));
+        var rezultat = 0;
+
+        if (operacija == "+") {
+            rezultat = x + y;
+        }
+        else if (operacija == "-") {
+            rezultat = x - y;
+        }
+        else if (operacija == "*") {
+            rezultat = x * y;
+        }
+        else if (operacija == "/") {
+            rezultat = x / y;
+        }
+        alert("Rezultat je: " + rezultat);
+    </script>
+</body>
+
+</html>
